@@ -16,7 +16,7 @@ spec:
         app: roar-web
     spec:
       containers:
-      - image: localhost:5000/roar-web-v1
+      - image: localhost:5000/roar-web:1.0.0
         imagePullPolicy: Always
         name: roar-web
         ports:

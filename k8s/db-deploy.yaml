@@ -27,7 +27,7 @@ spec:
           value: root+1
         - name: MYSQL_USER
           value: admin
-        image: localhost:5000/roar-db-v1
+        image: localhost:5000/roar-db:1.0.0
         imagePullPolicy: Always
         name: mysql
         ports:
