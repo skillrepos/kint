@@ -74,7 +74,7 @@ they'll be ready for Kubernetes to use.
 > **\$ docker push localhost:5000/roar-db:1.0.0**
 >
 >
- [END OF LAB]{.underline}
+<h3 style="text-align: center;">**[END OF LAB]**</h3>
 
 **Lab 2 - Exploring and Deploying into Kubernetes**
 
@@ -169,4 +169,4 @@ https://gwstudent-cautious-space-goldfish-p7vpg5q55xx36944-8089.preview.app.gith
 > **\$ kubectl delete -n roar pod -l app=roar-db**
 >
 
-[END OF LAB]{.underline}
+<h3 style="text-align: center;">**[END OF LAB]**</h3>
