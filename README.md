@@ -30,23 +30,15 @@ These steps **must** be completed prior to starting the actual labs.
 
       ```console
      😄  minikube v1.29.0 on Ubuntu 20.04 (docker/amd64)
-✨  Automatically selected the docker driver. Other choices: none, ssh
-📌  Using Docker driver with root privileges
-👍  Starting control plane node minikube in cluster minikube
-🚜  Pulling base image ...
-💾  Downloading Kubernetes v1.26.1 preload ...
-    > preloaded-images-k8s-v18-v1...:  397.05 MiB / 397.05 MiB  100.00% 115.85 
-    > gcr.io/k8s-minikube/kicbase...:  407.18 MiB / 407.19 MiB  100.00% 44.23 M
-🔥  Creating docker container (CPUs=2, Memory=2200MB) ...
-🐳  Preparing Kubernetes v1.26.1 on Docker 20.10.23 ...
-    ▪ Generating certificates and keys ...
-    ▪ Booting up control plane ...
-    ▪ Configuring RBAC rules ...
-🔗  Configuring bridge CNI (Container Networking Interface) ...
-    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5
-🔎  Verifying Kubernetes components...
-🌟  Enabled addons: storage-provisioner, default-storageclass
-🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+     ✨  Automatically selected the docker driver. Other choices: none, ssh
+     📌  Using Docker driver with root privileges
+     👍  Starting control plane node minikube in cluster minikube
+     🚜  Pulling base image ...
+     💾  Downloading Kubernetes v1.26.1 preload ...
+     ...
+     🔎  Verifying Kubernetes components...
+     🌟  Enabled addons: storage-provisioner, default-storageclass
+     🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
       ```
 
 ## Enable a local insecure registry to store images in
@@ -62,12 +54,12 @@ These steps **must** be completed prior to starting the actual labs.
     - The output should look similar to the following:
 
   ```console
-    💡  registry is an addon maintained by Google. For any concerns contact minikube on GitHub.
-You can view the list of minikube maintainers at: https://github.com/kubernetes/minikube/blob/master/OWNERS
+   💡  registry is an addon maintained by Google. For any concerns contact minikube on GitHub.
+   You can view the list of minikube maintainers at: https://github.com/kubernetes/minikube/blob/master/OWNERS
     ▪ Using image gcr.io/google_containers/kube-registry-proxy:0.4
     ▪ Using image docker.io/registry:2.8.1
-🔎  Verifying registry addon...
-🌟  The 'registry' addon is enabled
+   🔎  Verifying registry addon...
+   🌟  The 'registry' addon is enabled
   ```
 
 ## Labs
