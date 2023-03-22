@@ -28,18 +28,18 @@ These steps **must** be completed prior to starting the actual labs.
 
     - The output should look similar to the following.
 
-      ```console
-     😄  minikube v1.29.0 on Ubuntu 20.04 (docker/amd64)
-     ✨  Automatically selected the docker driver. Other choices: none, ssh
-     📌  Using Docker driver with root privileges
-     👍  Starting control plane node minikube in cluster minikube
-     🚜  Pulling base image ...
-     💾  Downloading Kubernetes v1.26.1 preload ...
-     ...
-     🔎  Verifying Kubernetes components...
-     🌟  Enabled addons: storage-provisioner, default-storageclass
-     🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
-      ```
+```console
+  😄  minikube v1.29.0 on Ubuntu 20.04 (docker/amd64)
+  ✨  Automatically selected the docker driver. Other choices: none, ssh
+  📌  Using Docker driver with root privileges
+  👍  Starting control plane node minikube in cluster minikube
+  🚜  Pulling base image ...
+  💾  Downloading Kubernetes v1.26.1 preload ...
+  ...
+  🔎  Verifying Kubernetes components...
+  🌟  Enabled addons: storage-provisioner, default-storageclass
+  🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+```
 
 ## Enable a local insecure registry to store images in
 
