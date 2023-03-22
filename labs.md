@@ -8,7 +8,7 @@
 >
 > **\$ clear**
 >
-> **\$ cd containersr**
+> **\$ cd containers**
 >
 
 2.  Do an **ls** command and take a look at the files that we have in
