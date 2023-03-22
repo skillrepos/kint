@@ -1,0 +1,19 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: roar-db
+  name: mysql
+  namespace: roar
+spec:
+  ports:
+  - name: mysql
+    port: 3306
+    targetPort: 3306
+  selector:
+    app: roar-db
+    targetPort: 3306
+  selector:
+    name: mysql
+
