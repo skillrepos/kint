@@ -8,6 +8,8 @@ These steps **must** be completed prior to starting the actual labs.
 
 - Ensure that you have created a repository by forking the [skillrepos/kint](https://github.com/skillrepos/kint) project as a template into your own GitHub area. You do this by clicking the `Fork` button in the upper right portion of the main project page and following the steps to create a copy in [your-github-userid/kint](https://<your-github-userid>/kint).
 
+![Forking repository](./images/kint1.png?raw=true "Forking the repository")
+
 ## Configure your codespace
 
 1. In your forked repository, start a new codespace.
@@ -16,6 +18,8 @@ These steps **must** be completed prior to starting the actual labs.
     - Click the `Codespaces` tab.
     - Click `Create codespaces on main` to create the codespace.
     - After the codespace has initialized there will be a terminal present.
+
+![Starting codespace](./images/kint2.png?raw=true "Starting your codespace")
 
 ## Start your single-node Kubernetes cluster
 2. There is a simple one-node Kubernetes instance called **minikube** available in your codespace. Start it the following way:
@@ -67,4 +71,6 @@ These steps **must** be completed prior to starting the actual labs.
 Open the labs document by clicking on the link below. (Alternatively, you can go to the file tree on the left, find the file named **labs.md**, right-click on it, and open it with the `Preview` option.) This will open it up in a tab above your terminal. Then you can follow along with the steps in the labs. Any command in the lab that starts with a `$` is intended to be run in the console (without typing the `$`).
 
 Labs doc: [Quick Labs for Introduction to Kubernetes](labs.md)
+
+![Labs doc preview in codespace](./images/kint3.png?raw=true "Labs doc preview in codespace")
 

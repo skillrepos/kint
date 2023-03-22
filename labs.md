@@ -59,7 +59,7 @@
 > **\$ docker images \| grep roar**
 >
 
-8. We need to port-forward to be able to access the registry easily
+8. We need to port-forward to be able to access the registry easily. (You can just dismiss any dialogs that pop-up after you run this one.)
 
 > 
 > **\$ kubectl port-forward --namespace kube-system service/registry 5000:80 &**
@@ -131,6 +131,7 @@ service/mysql created
 > 
 > **\$ kubectl port-forward -n roar svc/roar-web 8089 &**
 >
+![Port pop-up](./images/kint6.png?raw=true "Port pop-up")
 
 6.  You should see a pop-up in your codespace that informs that `(i) Your application running on port 8089 is available.` and gives you a button to click on to `Open in browser`.  Click on that button. (If you don't see the pop-up, you can also switch to the `PORTS` tab at the top of the terminal, select the row with `8089`, and right-click and select `View in browser`.)
 
@@ -140,6 +141,7 @@ The complete URL should look something like
 ```console
 https://gwstudent-cautious-space-goldfish-p7vpg5q55xx36944-8089.preview.app.github.dev/roar/
 ```
+![Running app in K8s](./images/kint5.png?raw=true "Running app in K8s")
 
 8.  Let's check the logs of the database pod to see what the application is doing there. 
     Run the command below to see the logs of the database pod:
@@ -155,6 +157,8 @@ https://gwstudent-cautious-space-goldfish-p7vpg5q55xx36944-8089.preview.app.gith
     Near the bottom of this output, notice the *Events* messages which describe major events associated with the pod.
 
 10.  To demonstrate the deployment functionality in Kubernetes, let's delete one of the pods. With your cursor in your terminal in the codespace, right-click and select the `Split Terminal` option. This will add a second terminal side-by-side with your other one.
+
+![Splitting the terminal](./images/kint7.png?raw=true "Splitting the terminal")
 
 11.  In the left terminal, run a command to start a `watch` of pods in the roar namespace.
 >
